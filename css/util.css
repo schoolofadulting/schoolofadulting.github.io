@@ -2967,7 +2967,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Courgette;
 	font-size: 30px;
 	line-height: 1.2;
-	color: #d61c22;
+	color: #000;
 }
 
 .tit3 {
@@ -2985,7 +2985,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 1.2;
-	color: white;
+	color: #fafafa;
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	word-spacing: 6px;
@@ -3078,7 +3078,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 1.1;
-	color: #fcd12a;
+	color: #212121;
 	text-transform: uppercase;
 }
 

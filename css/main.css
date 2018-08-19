@@ -87,7 +87,35 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   src: url('../fonts/notosans/NotoSans-Regular.ttf'); 
 }
 
+@font-face {
+  font-family: Kosmik-BoldOne;
+  src: url('../fonts/kosmic/Kosmik-BoldOne.ttf'); 
+}
 
+@font-face {
+  font-family: Kosmik-BoldThree;
+  src: url('../fonts/kosmic/Kosmik-BoldThree.ttf'); 
+}
+
+@font-face {
+  font-family: Kosmik-BoldTwo;
+  src: url('../fonts/kosmic/Kosmik-BoldTwo.ttf'); 
+}
+
+@font-face {
+  font-family: Kosmik-PlainOne;
+  src: url('../fonts/kosmic/Kosmik-PlainOne.ttf'); 
+}
+
+@font-face {
+  font-family: Kosmik-PlainThree;
+  src: url('../font/kosmic/Kosmik-PlainThree.ttf'); 
+}
+
+@font-face {
+  font-family: Kosmik-PlainTwo;
+  src: url('../fonts/kosmic/Kosmik-PlainTwo.ttf'); 
+}
 
 /*[ RESTYLE TAG ]
 ///////////////////////////////////////////////////////////
@@ -517,7 +545,9 @@ input[type="date" i] {
 -----------------------------------------------------------
 */
 .logo {
-  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  height: 100px;
 }
 
 .logo > a{
@@ -667,7 +697,7 @@ input[type="date" i] {
 }
 
 .social a:hover {
-  color: #fcd12a;
+  color: #757575;
 }
 
 .btn-show-sidebar {
@@ -683,8 +713,8 @@ input[type="date" i] {
 }
 
 .btn-show-sidebar:hover {
-  border-top: 2px solid #fcd12a;
-  border-bottom: 2px solid #fcd12a;
+  border-top: 2px solid #757575;
+  border-bottom: 2px solid #757575;
 }
 
 @media (max-width: 1200px) {
@@ -696,7 +726,7 @@ input[type="date" i] {
   .social {padding-right: 0px;}
 
   .logo {
-    height: 45px;
+    height: 100px;
   }
 }
 
