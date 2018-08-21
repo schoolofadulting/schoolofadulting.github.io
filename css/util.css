@@ -2971,17 +2971,18 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .tit3 {
-	font-family: Poppins;
+	font-family: kosmik-boldoneregular;
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 1.2;
 	color: #222222;
 	text-transform: uppercase;
 	letter-spacing: 6px;
+	padding: 10%;
 }
 
 .tit4 {
-	font-family: Poppins;
+	font-family: kosmik-boldoneregular;
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 1.2;
@@ -2989,10 +2990,11 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	word-spacing: 6px;
+	padding: 10%;
 }
 
 .tit5 {
-	font-family: Poppins;
+	font-family: kosmik-boldoneregular;
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 1.2;
@@ -3000,6 +3002,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	word-spacing: 8px;
+	padding: 10%;
 }
 
 .tit6 {
