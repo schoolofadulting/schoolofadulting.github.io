@@ -2978,7 +2978,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #222222;
 	text-transform: uppercase;
 	letter-spacing: 6px;
-	padding: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .tit4 {
@@ -2990,7 +2991,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	word-spacing: 6px;
-	padding: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .tit5 {
@@ -3002,7 +3004,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	word-spacing: 8px;
-	padding: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .tit6 {
