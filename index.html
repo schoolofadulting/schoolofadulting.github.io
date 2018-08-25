@@ -109,7 +109,7 @@
 						<div class="wrap-btn-slide1">
 							<!-- Button1 -->
 							<a href="#about" class="btn1 flex-c-m size1 txt3 trans-0-4">
-								Take a Class!
+								Grow up, not old!
 							</a>
 						</div>
 					</div>
@@ -119,14 +119,130 @@
 	</section>
 
 	<section>
-		<div class="p-t-100 p-b-70" id="about">
-			<p class="txt5 trans-0-4 m-b-13" style="font-size: 16px;text-align: center;padding: 4%">
+		<div class="p-t-100 p-b-30" id="about">
+			<p class="txt5 trans-0-4 m-b-13" style="font-size: 28px;text-align: center;padding: 4%">
 				School of Adulting is a community program, that teaches adults to learn essential life skills. <br> We bring you a series of curated sessions on practical living, through fun and experiential learning.
 			</p>
 		</div>
 	</section>
 
-	
+	<section>
+		<div class="p-t-10 p-b-50 wrap-btn-slide1" id="buttonpopup" align="center">
+			<a class="button" href="#popup1">TELL ME MORE!</a>
+		</div>
+
+		<div id="popup1" class="overlay" style="margin-top: 100px">
+			<div class="popup">
+				<h2 style="text-align: center;"><br>About Us!</h2>
+				<a class="close" href="#buttonpopup">&times;</a>
+				<div class="content" style="text-align: justify; scroll-behavior: smooth;">
+					<br>School of Adulting is a community program helping adults to learn essential life skills that will help you get through life easily (and become a bearable, responsible and skilled human). There are certain basics that are non-negotiable and that which we must all know, regardless of who we are, where we come from, or what we do -  simply for survival. These sessions will be held across the country in eclectic spaces to encourage experiential learning. Sessions will be held by experts from different fields covering a variety of topics, ranging from health, fitness, education, relationships, fashion, finances, travel, home, pets and more! You will learn simple things like how to fix a bulb, how to get a voter’s id, how to speak the local language, how to pay your taxes, how to travel well, how to design a poster and even how to host a party! 
+
+				</div>
+			</div>
+		</div>
+
+		<style type="text/css">
+			body {
+  			font-family: Arial, sans-serif;
+  			background-size: cover;
+  			height: 100vh;
+			}
+
+			h1 {
+  			text-align: center;
+  			font-family: Tahoma, Arial, sans-serif;
+  			color: #000;
+  			margin: 80px 0;
+			}
+
+			.box {
+  			margin: 0 auto;
+  			background: #fff;
+  			padding: 35px;
+  			border: 2px solid #fff;
+  			border-radius: 20px/50px;
+  			background-clip: padding-box;
+  			text-align: center;
+			}
+
+			.button {
+  			font-size: 1em;
+  			padding: 10px;
+  			color: #000;
+  			border: 2px solid #fcd12a;
+  			border-radius: 20px/50px;
+  			text-decoration: none;
+  			cursor: pointer;
+  			transition: all 0.3s ease-out;
+			}
+
+			.button:hover {
+  			background: #fcd12a;
+			}
+
+			.overlay {
+  			position: fixed;
+  			top: 0;
+  			bottom: 0;
+  			left: 0;
+  			right: 0;
+  			background: rgba(0, 0, 0, 0.7);
+  			transition: opacity 500ms;
+  			visibility: hidden;
+  			opacity: 0;
+			}
+
+			.overlay:target {
+  			visibility: visible;
+  			opacity: 1;
+			}
+
+			.popup {
+  			margin: 70px auto;
+  			padding: 20px;
+  			background: #fff;
+  			border-radius: 5px;
+  			width: 90%;
+  			position: relative;
+			}
+
+			.popup h2 {
+  			margin-top: 0;
+  			color: #333;
+  			font-family: Arial, sans-serif;
+			}
+			
+			.popup .close {
+  			position: absolute;
+  			top: 20px;
+  			right: 30px;
+  			transition: all 200ms;
+  			font-size: 30px;
+  			font-weight: bold;
+  			text-decoration: none;
+  			color: #333;
+			}
+			
+			.popup .close:hover {
+  			color: #fcd12a;
+			}
+			
+			.popup .content {
+  			max-height: 30%;
+  			overflow: auto;
+			}
+
+			@media screen and (max-width: 700px){
+  			.box{
+    		width: 70%;
+  			}
+  			.popup{
+    		width: 70%;
+  			}
+			}
+		</style>
+	</section>
 
 	<!-- Intro -->
 	<section class="section-intro" id="why">
@@ -203,6 +319,7 @@
 				</div>
 			</div>
 		</div>
+		<!-- Pop-up about page -->
 	</section>
 
 	<!-- Welcome -->
@@ -223,10 +340,10 @@
 							School of Adulting is suitable for everyone above the age of 16! Henry Ford beautifully said “Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young,” We welcome millennials, mothers, instagram influencers, teachers, software engineers, artists, hipsters, lawyers, doctors, inspectors and even your neighbour. You get the drift? Basically anyone who wishes to learn essential skills and practical life hacks to make everyday living a joy!
 						</p>
 
-						<a href="about.html" class="txt4">
+						<!-- <a href="about.html" class="txt4">
 							Our Story
 							<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
-						</a>
+						</a> -->
 					</div>
 				</div>
 
@@ -245,9 +362,9 @@
 				<div class="row">
 					<div class="col-md-4 p-t-30">
 						<!-- Block1 -->
-						<div class="blo1">
+						<div class="blo1" style=" background-color: #fff">
 							<div class="wrap-text-blo1 p-t-35" style="text-align: center;">
-								<h4 class="txt5 trans-0-4 m-b-13" style="color: #fff">
+								<h4 class="txt5 trans-0-4 m-b-13" style="color: #000;padding: 7%">
 									Let’s accept it, we’ve all been in situations where we’ve had absolutely no clue what to do! 
 								</h4>
 							</div>
@@ -256,9 +373,9 @@
 
 					<div class="col-md-4 p-t-30">
 						<!-- Block1 -->
-						<div class="blo1">
+						<div class="blo1" style="background-color: #fff">
 							<div class="wrap-text-blo1 p-t-35" style="text-align: center;">
-								<h4 class="txt5 trans-0-4 m-b-13"  style="color: #fff">
+								<h4 class="txt5 trans-0-4 m-b-13"  style="color: #000;padding: 7%">
 									Whether you live on your own, with family, or planning on starting a family of your own
 								</h4>
 							</div>
@@ -267,9 +384,9 @@
 
 					<div class="col-md-4 p-t-30">
 						<!-- Block1 -->
-						<div class="blo1">
+						<div class="blo1" style="background-color: #fff">
 							<div class="wrap-text-blo1 p-t-35" style="text-align: center;">
-								<h4 class="txt5 trans-0-4 m-b-13"  style="color: #fff">
+								<h4 class="txt5 trans-0-4 m-b-13"  style="color: #000; padding: 7%">
 									All you have to do is make it to the session on time, and we’ll take care of the rest.
 								</h4>
 							</div>
@@ -581,6 +698,8 @@
 			</div>
 		</div>
 	</div>
+
+	
 
 
 
