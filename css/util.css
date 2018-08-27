@@ -2985,9 +2985,9 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .tit4 {
 	font-family: kosmik-boldoneregular;
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 30px;
 	line-height: 1.2;
-	color: #fafafa;
+	color: #222;
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	word-spacing: 6px;
